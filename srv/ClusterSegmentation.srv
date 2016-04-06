@@ -1,0 +1,21 @@
+Header header
+
+# input
+sensor_msgs/PointCloud2 cloud
+
+# parameters (if < 0 than default values)
+float64 cluster_tolerance
+float64 min_cluster_size_rate
+float64 max_cluster_size_rate
+int64 min_input_size
+
+---
+
+# output (msg type)
+InliersCluster[] cluster_objs
+
+# used parameters (different from the above if they are < 0)
+float64 used_cluster_tolerance
+float64 used_min_cluster_size_rate
+float64 used_max_cluster_size_rate
+float64 used_min_input_size
