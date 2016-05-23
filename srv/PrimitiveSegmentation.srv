@@ -4,16 +4,6 @@ Header header
 sensor_msgs/PointCloud2 cloud
 sensor_msgs/PointCloud2 normals
 
-# parameters (if < 0 than default values)
-float64 normal_distance_weight
-float64 distance_threshold
-int64 max_iterations
-float64 min_radius_limit
-float64 max_radius_limit
-float64 eps_angle_threshold
-float64 min_opening_angle_degree
-float64 max_opening_angle_degree
-
 ---
 #output
 int32[] inliers			# w.r.t the input cloud
@@ -21,13 +11,3 @@ float32[] coefficients	# different set for different primitive shape
 float32 x_centroid
 float32 y_centroid
 float32 z_centroid
-
-# used parameters (different from the above if they are < 0)
-float64 used_normal_distance_weight
-float64 used_distance_threshold
-int64 used_max_iterations
-float64 used_min_radius_limit
-float64 used_max_radius_limit
-float64 used_eps_angle_th
-float64 used_min_opening_angle_degree
-float64 used_max_opening_angle_degree
