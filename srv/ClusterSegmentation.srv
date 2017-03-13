@@ -1,9 +1,0 @@
-Header header
-
-# input
-sensor_msgs/PointCloud2 cloud
-
----
-
-# output (msg type)
-InliersCluster[] cluster_objs
