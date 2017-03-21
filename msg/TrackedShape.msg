@@ -13,3 +13,4 @@ float32 x_est_centroid  # center of mass of the primitive as estimated by ransac
 float32 y_est_centroid
 float32 z_est_centroid
 
+std_msgs/String color
