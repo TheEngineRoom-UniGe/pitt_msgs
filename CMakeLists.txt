@@ -29,6 +29,8 @@ add_service_files(DIRECTORY srv
         ArmFilter.srv
         PrimitiveSegmentation.srv
         SupportSegmentation.srv
+	ColorSrvMsg.srv
+
         )
 
 generate_messages(
