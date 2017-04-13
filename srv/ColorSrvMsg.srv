@@ -4,6 +4,8 @@ sensor_msgs/PointCloud2 cloud
 
 ---
 
-std_msgs/Float32 Hue
+std_msgs/Float32 redPercentage
+std_msgs/Float32 bluePercentage
+std_msgs/Float32 greenPercentage
 std_msgs/String Color
-std_msgs/Float32 Variance
+
